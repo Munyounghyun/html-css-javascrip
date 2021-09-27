@@ -1,11 +1,14 @@
 const idText=document.querySelector('#id');
-
 const passwordText=document.querySelector('#pw');
+// passwordText.onblur=()=>{
+//     let password_flag= checkPassword(idText.value,passwordText.value);
+//     if(password_flag==true){
+//         alert("사용가능한 비밀번호 입니다.")
+//     }
+// }
 passwordText.onblur=()=>{
-    let password_flag= checkPassword(idText.value,passwordText.value);
-    if(password_flag==true){
-        alert("사용가능한 비밀번호 입니다.")
-    }
+    checkPassword(idText.ariaValueMax,passwordText.value);
+    setTimeout(20);
 }
 
 function checkPassword(id,pw){

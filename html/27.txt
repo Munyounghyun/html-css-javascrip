@@ -1,0 +1,17 @@
+bootcamp
+fontawesome
+
+JSP
+웹의 동장
+요청:클라이언트에서 서버로 정보를 요구하기 위해 보내는 메시지, get,post방식이 있습니다.
+응답:HTTP에서 요구된 메시지에 대한 응답 , html,이미지
+
+정적 페이지 : 변하지 않는 성격을 가진 페이지
+동적 페이지 : 자동으로 생성된 페이지,기존의 웹서버에 새로운 기능을 가진 프로그램을 탑재하여 동적으로 html을 생성
+
+
+spring.io 홈페이지 들어가서 다운
+다운후 help eclipse marketplace에서 eclipse web 검색후 java EE 다운,spring 검색후 두번째꺼 다운
+tomcat 9버전 다운
+
+
